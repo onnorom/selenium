@@ -35,7 +35,7 @@ public class HeadlessTest {
         FileUtils.copyFile(scrFile, new File("output/screenshots/homepage.png"));
 
         //Assert.assertTrue(pageTitle.contains("Trusted Advisors for E-Commerce | Avenue Code"));
-        Assert.assertTrue(pageTitle.contains("Avenue Code  | Trusted Advisors for Enterprise IT Consulting"));
+        Assert.assertTrue(pageTitle.contains("Avenue Code | Trusted Advisors for Enterprise IT Consulting"));
         log.info("Quitting driver");
         driver.quit();
     }
